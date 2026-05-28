@@ -1,0 +1,464 @@
+@base <http://meteo_onto.org/meteo_core/> .
+@prefix : <http://meteo_onto.org/meteo_core/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/contributor
+# 
+# http://purl.org/dc/elements/1.1/creator
+# 
+# http://purl.org/dc/terms/description
+# 
+# http://purl.org/dc/terms/license
+# 
+# http://www.w3.org/2004/02/skos/core#definition
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://meteo_onto.org/meteo_core/hasAdminLocation
+# 
+# http://meteo_onto.org/meteo_core/hasData
+# 
+# http://meteo_onto.org/meteo_core/hasDataProvider
+# 
+# http://meteo_onto.org/meteo_core/hasLocation
+# 
+# http://meteo_onto.org/meteo_core/hasMember
+# 
+# http://meteo_onto.org/meteo_core/hasUnitOf
+# 
+# http://meteo_onto.org/meteo_core/isAdminLocationOf
+# 
+# http://meteo_onto.org/meteo_core/isDataOf
+# 
+# http://meteo_onto.org/meteo_core/isDataProviderOf
+# 
+# http://meteo_onto.org/meteo_core/isLocationOf
+# 
+# http://meteo_onto.org/meteo_core/isMemberOf
+# 
+# http://meteo_onto.org/meteo_core/isProvidedBy
+# 
+# http://meteo_onto.org/meteo_core/isUnitOf
+# 
+# http://meteo_onto.org/meteo_core/provide
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://meteo_onto.org/meteo_core/hasDataCollectionURL
+# 
+# http://meteo_onto.org/meteo_core/hasDataProviderName
+# 
+# http://meteo_onto.org/meteo_core/hasDataProviderURL
+# 
+# http://meteo_onto.org/meteo_core/hasDatacollectionName
+# 
+# http://meteo_onto.org/meteo_core/hasFormat
+# 
+# http://meteo_onto.org/meteo_core/hasSize
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://meteo_onto.org/meteo_core/AcademicDataProvider
+# 
+# http://meteo_onto.org/meteo_core/AdminLocation
+# 
+# http://meteo_onto.org/meteo_core/City
+# 
+# http://meteo_onto.org/meteo_core/ClimateGrid
+# 
+# http://meteo_onto.org/meteo_core/CommercialDataProvider
+# 
+# http://meteo_onto.org/meteo_core/Continent
+# 
+# http://meteo_onto.org/meteo_core/Country
+# 
+# http://meteo_onto.org/meteo_core/Data
+# 
+# http://meteo_onto.org/meteo_core/DataCollection
+# 
+# http://meteo_onto.org/meteo_core/DataProvider
+# 
+# http://meteo_onto.org/meteo_core/District
+# 
+# http://meteo_onto.org/meteo_core/ForecastGrid
+# 
+# http://meteo_onto.org/meteo_core/FreeOpenSourceDataProvider
+# 
+# http://meteo_onto.org/meteo_core/GovernmentalDataProvider
+# 
+# http://meteo_onto.org/meteo_core/GridCell
+# 
+# http://meteo_onto.org/meteo_core/ImageData
+# 
+# http://meteo_onto.org/meteo_core/Locality
+# 
+# http://meteo_onto.org/meteo_core/LocationType
+# 
+# http://meteo_onto.org/meteo_core/MapData
+# 
+# http://meteo_onto.org/meteo_core/MeteoCore
+# 
+# http://meteo_onto.org/meteo_core/Municipality
+# 
+# http://meteo_onto.org/meteo_core/NumericData
+# 
+# http://meteo_onto.org/meteo_core/ObservationGrid
+# 
+# http://meteo_onto.org/meteo_core/Point
+# 
+# http://meteo_onto.org/meteo_core/RasterTile
+# 
+# http://meteo_onto.org/meteo_core/StateProvince
+# 
+# http://meteo_onto.org/meteo_core/SubContinent
+# 
+# http://meteo_onto.org/meteo_core/TextualData
+# 
+# http://meteo_onto.org/meteo_core/Time
+# 
+# http://meteo_onto.org/meteo_core/TimeDuration
+# 
+# http://meteo_onto.org/meteo_core/TimeInstant
+# 
+# http://meteo_onto.org/meteo_core/TimeInterval
+# 
+# http://meteo_onto.org/meteo_core/Unit
+# 
+# http://meteo_onto.org/meteo_core/VideoData
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://meteo_onto.org/meteo_core/Celsius
+# 
+# http://meteo_onto.org/meteo_core/DeciBels
+# 
+# http://meteo_onto.org/meteo_core/Fraction
+# 
+# http://meteo_onto.org/meteo_core/Kelvin
+# 
+# http://meteo_onto.org/meteo_core/MeterPerSecond
+# 
+# http://meteo_onto.org/meteo_core/Millimeter
+# 
+# http://meteo_onto.org/meteo_core/Percent
+# 
+# http://meteo_onto.org/meteo_core/Unitless
+# 
+# http://meteo_onto.org/meteo_core/WattPerSquareMeter
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+# 
+# 
+# Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
+
+<> a owl:Ontology;
+  owl:versionIRI :Core1_0;
+  <http://purl.org/dc/elements/1.1/contributor> "Prof. Dulani Meedeniya"@en;
+  <http://purl.org/dc/elements/1.1/creator> "H. K. Pasan Gunasekara"@en;
+  <http://purl.org/dc/terms/description> "This is the core ontology that cover all the core concepts of meteorological domain that centers to every sub domain of meteorology."@en;
+  <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/"@en;
+  owl:versionInfo "http://meteo_onto.org/meteo_core/Core1_"@en .
+
+<http://purl.org/dc/elements/1.1/contributor> a owl:AnnotationProperty .
+
+<http://purl.org/dc/elements/1.1/creator> a owl:AnnotationProperty .
+
+<http://purl.org/dc/terms/description> a owl:AnnotationProperty .
+
+<http://purl.org/dc/terms/license> a owl:AnnotationProperty .
+
+<http://www.w3.org/2004/02/skos/core#definition> a owl:AnnotationProperty .
+
+:hasAdminLocation a owl:ObjectProperty;
+  owl:inverseOf :isAdminLocationOf;
+  rdfs:range :AdminLocation .
+
+:hasData a owl:ObjectProperty;
+  owl:inverseOf :isDataOf;
+  rdfs:range :Data .
+
+:hasDataProvider a owl:ObjectProperty;
+  owl:inverseOf :isDataProviderOf;
+  rdfs:range :DataProvider .
+
+:hasLocation a owl:ObjectProperty;
+  owl:inverseOf :isLocationOf;
+  rdfs:range :LocationType .
+
+:hasMember a owl:ObjectProperty;
+  owl:inverseOf :isMemberOf;
+  rdfs:domain :DataCollection .
+
+:hasUnitOf a owl:ObjectProperty;
+  owl:inverseOf :isUnitOf;
+  rdfs:range :Unit .
+
+:isAdminLocationOf a owl:ObjectProperty;
+  rdfs:domain :AdminLocation .
+
+:isDataOf a owl:ObjectProperty;
+  rdfs:domain :Data .
+
+:isDataProviderOf a owl:ObjectProperty;
+  rdfs:domain :DataProvider .
+
+:isLocationOf a owl:ObjectProperty;
+  rdfs:domain :LocationType .
+
+:isMemberOf a owl:ObjectProperty;
+  rdfs:range :DataCollection .
+
+:isProvidedBy a owl:ObjectProperty, owl:FunctionalProperty;
+  owl:inverseOf :provide;
+  rdfs:domain :Data;
+  rdfs:range :DataProvider .
+
+:isUnitOf a owl:ObjectProperty;
+  rdfs:domain :Unit .
+
+:provide a owl:ObjectProperty;
+  rdfs:domain :DataProvider;
+  rdfs:range :Data .
+
+:hasDataCollectionURL a owl:DatatypeProperty;
+  rdfs:domain :DataCollection .
+
+:hasDataProviderName a owl:DatatypeProperty;
+  rdfs:domain :DataProvider .
+
+:hasDataProviderURL a owl:DatatypeProperty;
+  rdfs:domain :DataProvider .
+
+:hasDatacollectionName a owl:DatatypeProperty;
+  rdfs:domain :DataCollection .
+
+:hasFormat a owl:DatatypeProperty;
+  rdfs:domain :Data .
+
+:hasSize a owl:DatatypeProperty;
+  rdfs:domain :Data .
+
+:AcademicDataProvider a owl:Class;
+  rdfs:subClassOf :DataProvider .
+
+:AdminLocation a owl:Class;
+  rdfs:subClassOf :MeteoCore;
+  rdfs:label "Administrative Location"@en;
+  <http://www.w3.org/2004/02/skos/core#definition> "Represents an administrative or geopolitical geographic area used to organize, classify, or associate meteorological information. Examples include countries, states, provinces, districts, municipalities, or other officially defined regions used for reporting and analysis."@en .
+
+:City a owl:Class;
+  rdfs:subClassOf :AdminLocation .
+
+:ClimateGrid a owl:Class;
+  rdfs:subClassOf :LocationType .
+
+:CommercialDataProvider a owl:Class;
+  rdfs:subClassOf :DataProvider .
+
+:Continent a owl:Class;
+  rdfs:subClassOf :AdminLocation .
+
+:Country a owl:Class;
+  rdfs:subClassOf :AdminLocation .
+
+:Data a owl:Class;
+  rdfs:subClassOf :MeteoCore;
+  <http://purl.org/dc/terms/description> "Represents the classification of meteorological information according to its content, purpose, or structure. This class identifies categories such as various multimodal data dtypes including image, numeric, video, Text, and Mapped data"@en;
+  rdfs:label "Meteorological Data Type"@en .
+
+:DataCollection a owl:Class;
+  rdfs:subClassOf :MeteoCore;
+  rdfs:comment "A structured collection of meteorological observations gathered from official meteorological resources and implemented sensing environments. This collection organizes weather-related observational data, including measurements such as temperature, humidity, rainfall, wind speed, and atmospheric conditions, to support consistent representation, integration, and management of meteorological information."@en;
+  rdfs:label "Data Collection" .
+
+:DataProvider a owl:Class;
+  rdfs:subClassOf :MeteoCore;
+  <http://purl.org/dc/terms/description> "An entity or organization that supplies, publishes, or distributes data for use by individuals, systems, or applications."@en;
+  rdfs:label "Data Provider"@en .
+
+:District a owl:Class;
+  rdfs:subClassOf :AdminLocation .
+
+:ForecastGrid a owl:Class;
+  rdfs:subClassOf :LocationType .
+
+:FreeOpenSourceDataProvider a owl:Class;
+  rdfs:subClassOf :DataProvider .
+
+:GovernmentalDataProvider a owl:Class;
+  rdfs:subClassOf :DataProvider .
+
+:GridCell a owl:Class;
+  rdfs:subClassOf :LocationType .
+
+:ImageData a owl:Class;
+  rdfs:subClassOf :Data .
+
+:Locality a owl:Class;
+  rdfs:subClassOf :AdminLocation .
+
+:LocationType a owl:Class;
+  rdfs:subClassOf :MeteoCore;
+  <http://purl.org/dc/terms/description> "Represents the category or characterization of a location where meteorological observations are collected. Examples include grid cells, or other observation environments."@en;
+  rdfs:label "Observable Meteorological Property"@en .
+
+:MapData a owl:Class;
+  rdfs:subClassOf :Data .
+
+:MeteoCore a owl:Class .
+
+:Municipality a owl:Class;
+  rdfs:subClassOf :AdminLocation .
+
+:NumericData a owl:Class;
+  rdfs:subClassOf :Data .
+
+:ObservationGrid a owl:Class;
+  rdfs:subClassOf :LocationType .
+
+:Point a owl:Class;
+  rdfs:subClassOf :LocationType .
+
+:RasterTile a owl:Class;
+  rdfs:subClassOf :LocationType .
+
+:StateProvince a owl:Class;
+  rdfs:subClassOf :AdminLocation .
+
+:SubContinent a owl:Class;
+  rdfs:subClassOf :AdminLocation .
+
+:TextualData a owl:Class;
+  rdfs:subClassOf :Data .
+
+:Time a owl:Class;
+  rdfs:subClassOf :MeteoCore;
+  <http://purl.org/dc/terms/description> "Represents temporal concepts including instants, intervals, and durations used in meteorological observations and data."@en;
+  rdfs:label "Time"@en .
+
+:TimeDuration a owl:Class;
+  rdfs:subClassOf :Time .
+
+:TimeInstant a owl:Class;
+  rdfs:subClassOf :Time .
+
+:TimeInterval a owl:Class;
+  rdfs:subClassOf :Time .
+
+:Unit a owl:Class;
+  rdfs:subClassOf :MeteoCore .
+
+:VideoData a owl:Class;
+  rdfs:subClassOf :Data .
+
+:Celsius a owl:NamedIndividual .
+
+:DeciBels a owl:NamedIndividual .
+
+:Fraction a owl:NamedIndividual .
+
+:Kelvin a owl:NamedIndividual .
+
+:MeterPerSecond a owl:NamedIndividual .
+
+:Millimeter a owl:NamedIndividual .
+
+:Percent a owl:NamedIndividual .
+
+:Unitless a owl:NamedIndividual .
+
+:WattPerSquareMeter a owl:NamedIndividual .
+
+_:genid1 a owl:AllDisjointClasses;
+  owl:members _:genid8 .
+
+_:genid8 a rdf:List;
+  rdf:first :AdminLocation;
+  rdf:rest _:genid7 .
+
+_:genid7 a rdf:List;
+  rdf:first :Data;
+  rdf:rest _:genid6 .
+
+_:genid6 a rdf:List;
+  rdf:first :DataCollection;
+  rdf:rest _:genid5 .
+
+_:genid5 a rdf:List;
+  rdf:first :DataProvider;
+  rdf:rest _:genid4 .
+
+_:genid4 a rdf:List;
+  rdf:first :LocationType;
+  rdf:rest _:genid3 .
+
+_:genid3 a rdf:List;
+  rdf:first :Time;
+  rdf:rest _:genid2 .
+
+_:genid2 a rdf:List;
+  rdf:first :Unit;
+  rdf:rest rdf:nil .
+
+_:genid9 a owl:AllDisjointClasses;
+  owl:members _:genid12 .
+
+_:genid12 a rdf:List;
+  rdf:first :TimeDuration;
+  rdf:rest _:genid11 .
+
+_:genid11 a rdf:List;
+  rdf:first :TimeInstant;
+  rdf:rest _:genid10 .
+
+_:genid10 a rdf:List;
+  rdf:first :TimeInterval;
+  rdf:rest rdf:nil .
